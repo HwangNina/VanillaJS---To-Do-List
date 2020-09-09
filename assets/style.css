@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    background-color: rgb(243, 225, 228);
+    text-align: center;
+}
+
+.main {
+    display: fixed;
+    background-color: rgba(255, 255, 255, 0.829);
+    text-align: center;
+    width: 800px;
+    padding: 4rem 10rem;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 19px -5px rgba(107,107,107,1);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+#todo, #submit_btn {
+    font-size: 1rem;
+}
+
+#todo {
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+#submit_btn {
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    padding: 0.1rem 1rem;
+}
+
+#del-btn {
+    background: none;
+    color: rgb(177, 49, 49);
+    font-size: 1.2rem;
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
